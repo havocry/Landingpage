@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+}
+body .top,
+.second,
+.third,
+.image-subtext,
+.fourth-text {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  align-items: center;
+}
+.top,
+.footer {
+  background-color: #1f2937;
+}
+.header {
+  gap: 450px;
+}
+.header,
+.first,
+.image-second,
+.fourth,
+.links {
+  display: flex;
+}
+.logo {
+  font-size: 24px;
+  color: aliceblue;
+}
+.links {
+  gap: 15px;
+  margin-top: 20px;
+}
+.first {
+  gap: 100px;
+  align-items: center;
+}
+.image-second {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+.second-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.second-header {
+  text-align: center;
+}
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.image-second {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+.image-subtext img {
+  height: 200px;
+  border-radius: 10px;
+  border: solid blue 2px;
+  width: 200px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.image-subtext p {
+  width: 100px;
+  text-align: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.image-second {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
